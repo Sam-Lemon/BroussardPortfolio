@@ -7,11 +7,13 @@ import { Container, Navbar, Nav } from "react-bootstrap/";
 
 export default function TopNavBar() {
   return (
-    <Navbar bg="#FFFFFF" fixed="top">
+    <Navbar bg="#FFFFFF" fixed="top" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
           <Branding />
         </Navbar.Brand>
+      </Container>
+      <Container className="d-flex justify-content-end">
         <Nav className="me-0">
           <Nav.Link href="#projects">Projects</Nav.Link>
           <Nav.Link href="#blogs">Blogs</Nav.Link>
