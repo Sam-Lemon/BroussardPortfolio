@@ -1,9 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-// import Branding from './comps/Branding';
 import TopNavBar from "./comps/TopNav";
-import VideoBanner from "./comps/VideoBanner";
+// import VideoBanner from "./comps/VideoBanner";
 
 function App() {
   return (
@@ -11,9 +10,9 @@ function App() {
       <div>
         <TopNavBar />
       </div>
-      <div>
+      {/* <div>
         <VideoBanner />
-      </div>
+      </div> */}
     </>
   );
 }

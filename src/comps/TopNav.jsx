@@ -1,8 +1,6 @@
 import React from "react";
 import Branding from "./Branding";
-import InstagramIcon from "./socials/InstagramIcon";
-import LinkedInIcon from "./socials/LinkedInIcon";
-import VimeoIcon from "./socials/VimeoIcon";
+// import SocialsBlock from "./SocialsBlock";
 import { Container, Navbar, Nav } from "react-bootstrap/";
 
 export default function TopNavBar() {
@@ -20,11 +18,9 @@ export default function TopNavBar() {
           <Nav.Link href="#gallery">Gallery</Nav.Link>
           <Nav.Link href="#about">About Me</Nav.Link>
         </Nav>
-        <Nav className="me-4">
-          <InstagramIcon />
-          <LinkedInIcon />
-          <VimeoIcon />
-        </Nav>
+        {/* <Nav className="me-4">
+          <SocialsBlock />
+        </Nav> */}
       </Container>
     </Navbar>
   );
