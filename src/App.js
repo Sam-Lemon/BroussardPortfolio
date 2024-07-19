@@ -1,12 +1,20 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 // import Branding from './comps/Branding';
-import TopNavBar from './comps/TopNav';
+import TopNavBar from "./comps/TopNav";
+import VideoBanner from "./comps/VideoBanner";
 
 function App() {
   return (
-    <TopNavBar />
+    <>
+      <div>
+        <TopNavBar />
+      </div>
+      <div>
+        <VideoBanner />
+      </div>
+    </>
   );
 }
 
