@@ -4,10 +4,8 @@ import VBVideo from "./VBVideo";
 
 export default function VideoBanner() {
   return (
-    <Container className="m-0 p-0">
-      <div className="ratio ratio-16x9">
+    <Container className="mt-5 w-100">
         <VBVideo />
-      </div>
     </Container>
   );
 }

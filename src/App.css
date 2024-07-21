@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 
-/**************************************************BRANDING COMPONENT*************/
+/**********************BRANDING COMPONENT*****/
 .branding-container {
   text-align: center;
   font-family: 'Garamond', serif;
@@ -9,12 +9,20 @@
 }
 
 
-/**************************************************TOP NAVBAR COMPONENT*************/
+/**********************TOP NAVBAR COMPONENT*****/
 .social-icon {
   color: black;
 }
 
-
-
+/**********************VBVideo COMPONENT*****/
+.video-frame {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  z-index: -1;
+  border: none;
+}
 
 
